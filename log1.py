@@ -63,4 +63,4 @@ with pd.ExcelWriter("EXCEL/QlikSenseLogData.xlsx", engine="xlsxwriter", options=
         df.to_excel(writer, sheet_name="Sheet1", header=True, index=False)
         print("File saved successfully!")
     except:
-        print("There is an error")
+        print("There is an  database error")
